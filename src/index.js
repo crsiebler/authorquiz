@@ -58,7 +58,7 @@ const authors = [
 ];
 
 function getTurnData(authors) {
-  const allBooks = authors.reduce(function(p, c, i) {
+  const allBooks = authors.reduce(function (p, c, i) {
     return p.concat(c.books);
   }, []);
 
@@ -67,8 +67,8 @@ function getTurnData(authors) {
 
   return {
     books: fourRandomBooks,
-    author: authors.find(author =>
-      author.books.some(title => title === answer),
+    author: authors.find((author) =>
+      author.books.some((title) => title === answer),
     ),
   };
 }
@@ -80,7 +80,7 @@ function reducer(
   switch (action.type) {
     case 'ANSWER_SELECTED':
       const isCorrect = state.turnData.author.books.some(
-        book => book === action.answer,
+        (book) => book === action.answer,
       );
       return Object.assign({}, state, {
         highlight: isCorrect ? 'correct' : 'wrong',
@@ -119,4 +119,4 @@ ReactDOM.render(
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+serviceWorker.register();
