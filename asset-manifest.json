@@ -1,15 +1,26 @@
 {
   "files": {
-    "main.css": "/authorquiz/static/css/main.46b249b8.chunk.css",
-    "main.js": "/authorquiz/static/js/main.502a97f9.chunk.js",
-    "main.js.map": "/authorquiz/static/js/main.502a97f9.chunk.js.map",
-    "runtime-main.js": "/authorquiz/static/js/runtime-main.9ad94e50.js",
-    "runtime-main.js.map": "/authorquiz/static/js/runtime-main.9ad94e50.js.map",
-    "static/js/2.566cb6fe.chunk.js": "/authorquiz/static/js/2.566cb6fe.chunk.js",
-    "static/js/2.566cb6fe.chunk.js.map": "/authorquiz/static/js/2.566cb6fe.chunk.js.map",
+    "main.css": "/authorquiz/static/css/main.c23c8979.chunk.css",
+    "main.js": "/authorquiz/static/js/main.523bfa05.chunk.js",
+    "main.js.map": "/authorquiz/static/js/main.523bfa05.chunk.js.map",
+    "runtime-main.js": "/authorquiz/static/js/runtime-main.57b8aae9.js",
+    "runtime-main.js.map": "/authorquiz/static/js/runtime-main.57b8aae9.js.map",
+    "static/js/2.8593142e.chunk.js": "/authorquiz/static/js/2.8593142e.chunk.js",
+    "static/js/2.8593142e.chunk.js.map": "/authorquiz/static/js/2.8593142e.chunk.js.map",
     "index.html": "/authorquiz/index.html",
-    "precache-manifest.c1c17fee10f03dd1547951cd83926882.js": "/authorquiz/precache-manifest.c1c17fee10f03dd1547951cd83926882.js",
-    "service-worker.js": "/authorquiz/service-worker.js",
-    "static/css/main.46b249b8.chunk.css.map": "/authorquiz/static/css/main.46b249b8.chunk.css.map"
-  }
+    "static/css/main.c23c8979.chunk.css.map": "/authorquiz/static/css/main.c23c8979.chunk.css.map",
+    "static/js/2.8593142e.chunk.js.LICENSE.txt": "/authorquiz/static/js/2.8593142e.chunk.js.LICENSE.txt",
+    "static/media/charlesdickens.84798f14.jpg": "/authorquiz/static/media/charlesdickens.84798f14.jpg",
+    "static/media/jkrowling.e3baa56f.jpg": "/authorquiz/static/media/jkrowling.e3baa56f.jpg",
+    "static/media/josephconrad.854fe46f.jpg": "/authorquiz/static/media/josephconrad.854fe46f.jpg",
+    "static/media/marktwain.1939b8d0.jpg": "/authorquiz/static/media/marktwain.1939b8d0.jpg",
+    "static/media/stephenking.3abf56be.jpg": "/authorquiz/static/media/stephenking.3abf56be.jpg",
+    "static/media/williamshakespeare.3ad45bbf.jpg": "/authorquiz/static/media/williamshakespeare.3ad45bbf.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.57b8aae9.js",
+    "static/js/2.8593142e.chunk.js",
+    "static/css/main.c23c8979.chunk.css",
+    "static/js/main.523bfa05.chunk.js"
+  ]
 }
