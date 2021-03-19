@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/authorquiz/static/js/main.502a97f9.chunk.js"
   },
   {
-    "revision": "57cd4876dffa607a8b7f",
-    "url": "/authorquiz/static/js/runtime~main.9ad94e50.js"
+    "revision": "ccbcac2d3d38689370b1",
+    "url": "/authorquiz/static/js/runtime-main.9ad94e50.js"
   }
 ]);
