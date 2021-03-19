@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/authorquiz/static/css/main.c23c8979.chunk.css",
-    "main.js": "/authorquiz/static/js/main.3dc01c58.chunk.js",
-    "main.js.map": "/authorquiz/static/js/main.3dc01c58.chunk.js.map",
+    "main.js": "/authorquiz/static/js/main.3801689a.chunk.js",
+    "main.js.map": "/authorquiz/static/js/main.3801689a.chunk.js.map",
     "runtime-main.js": "/authorquiz/static/js/runtime-main.57b8aae9.js",
     "runtime-main.js.map": "/authorquiz/static/js/runtime-main.57b8aae9.js.map",
-    "static/js/2.8593142e.chunk.js": "/authorquiz/static/js/2.8593142e.chunk.js",
-    "static/js/2.8593142e.chunk.js.map": "/authorquiz/static/js/2.8593142e.chunk.js.map",
+    "static/js/2.ed40905d.chunk.js": "/authorquiz/static/js/2.ed40905d.chunk.js",
+    "static/js/2.ed40905d.chunk.js.map": "/authorquiz/static/js/2.ed40905d.chunk.js.map",
     "index.html": "/authorquiz/index.html",
     "static/css/main.c23c8979.chunk.css.map": "/authorquiz/static/css/main.c23c8979.chunk.css.map",
-    "static/js/2.8593142e.chunk.js.LICENSE.txt": "/authorquiz/static/js/2.8593142e.chunk.js.LICENSE.txt",
+    "static/js/2.ed40905d.chunk.js.LICENSE.txt": "/authorquiz/static/js/2.ed40905d.chunk.js.LICENSE.txt",
     "static/media/charlesdickens.84798f14.jpg": "/authorquiz/static/media/charlesdickens.84798f14.jpg",
     "static/media/jkrowling.e3baa56f.jpg": "/authorquiz/static/media/jkrowling.e3baa56f.jpg",
     "static/media/josephconrad.854fe46f.jpg": "/authorquiz/static/media/josephconrad.854fe46f.jpg",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.57b8aae9.js",
-    "static/js/2.8593142e.chunk.js",
+    "static/js/2.ed40905d.chunk.js",
     "static/css/main.c23c8979.chunk.css",
-    "static/js/main.3dc01c58.chunk.js"
+    "static/js/main.3801689a.chunk.js"
   ]
 }
