@@ -1,44 +1,49 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 import * as Redux from 'redux';
 import * as ReactRedux from 'react-redux';
 import './index.css';
+import jkrowling from './images/authors/jkrowling.jpg';
+import stephenking from './images/authors/stephenking.jpg';
+import charlesdickens from './images/authors/charlesdickens.jpg';
+import josephconrad from './images/authors/josephconrad.jpg';
+import marktwain from './images/authors/marktwain.jpg';
+import williamshakespeare from './images/authors/williamshakespeare.jpg';
 import AuthorQuiz from './AuthorQuiz';
 import AddAuthorForm from './AddAuthorForm';
-import * as serviceWorker from './serviceWorker';
 import { shuffle, sample } from 'underscore';
 
 const authors = [
   {
     name: 'J.K. Rowling',
-    imageUrl: 'images/authors/jkrowling.jpg',
+    imageUrl: jkrowling,
     imageSource: 'Wikimedia Commons',
     imageAttribution: 'Daniel Ogren',
     books: ['Harry Potter and the Sorcerers Stone'],
   },
   {
     name: 'Stephen King',
-    imageUrl: 'images/authors/stephenking.jpg',
+    imageUrl: stephenking,
     imageSource: 'Wikimedia Commons',
     imageAttribution: 'Pinguino',
     books: ['The Shining', 'IT'],
   },
   {
     name: 'Charles Dickens',
-    imageUrl: 'images/authors/charlesdickens.jpg',
+    imageUrl: charlesdickens,
     imageSource: 'Wikimedia Commons',
     books: ['David Copperfield', 'A Tale of Two Cities'],
   },
   {
     name: 'Joseph Conrad',
-    imageUrl: 'images/authors/josephconrad.jpg',
+    imageUrl: josephconrad,
     imageSource: 'Wikimedia Commons',
     books: ['Heart of Darkness'],
   },
   {
     name: 'Mark Twain',
-    imageUrl: 'images/authors/marktwain.jpg',
+    imageUrl: marktwain,
     imageSource: 'Wikimedia Commons',
     books: [
       'The Adventures of Huckleberry Finn',
@@ -51,7 +56,7 @@ const authors = [
   },
   {
     name: 'William Shakespeare',
-    imageUrl: 'images/authors/williamshakespeare.jpg',
+    imageUrl: williamshakespeare,
     imageSource: 'Wikimedia Commons',
     books: ['Hamlet', 'Macbeth', 'Romeo and Juliet'],
   },
@@ -105,18 +110,13 @@ let store = Redux.createStore(
 );
 
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
     <ReactRedux.Provider store={store}>
       <React.Fragment>
         <Route exact path="/" component={AuthorQuiz} />
         <Route path="/add" component={AddAuthorForm} />
       </React.Fragment>
     </ReactRedux.Provider>
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById('root'),
 );
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.register();
